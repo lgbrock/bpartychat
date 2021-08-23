@@ -109,9 +109,9 @@ const Chat = () => {
 	};
 
 	return (
-		<Container>
+		<Container style={{ paddingTop: 100 }}>
 			<Messages user={state.user} />
-			<Row>
+			<Row style={{ paddingTop: 20 }}>
 				<Col xs={2} style={{ padding: 0 }}>
 					<FormInput
 						label='User'
